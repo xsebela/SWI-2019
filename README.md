@@ -40,7 +40,7 @@ You can also try for yourself at http://git-school.github.io/visualizing-git/#fr
 1. History, the why, what?  
   - `git log` - show what's what
 
-1. Basics - `init`/`clone`, `git config`  
+5. Basics - `init`/`clone`, `git config`  
   - commits
   - branches
   - exercises, see below
