@@ -3,12 +3,23 @@
 ## SWI 1
 
 These are materials for the [Software Engineering 1](http://is.mendelu.cz/katalog/syllabus.pl?kod=PEF:SWI1) course,
-Tuesday group, even-numbered week, taught on Mendel University in Brno, fall 2019, led by @ZitaNemeckova and @himdel
+Tuesday group, even-numbered weeks, taught on Mendel University in Brno, fall 2019, led by [@ZitaNemeckova](https://github.com/ZitaNemeckova) and [@himdel](https://github.com/himdel).
 
 The topic will be Git, the whole semester.
 
+If you need to contact us, please use the [ManageIQ/welcome](https://gitter.im/ManageIQ/welcome) channel on [Gitter](https://gitter.im). (You'll need a github login anyway.)  
+Feel free to use that channel to share anything useful you've found :).
 
-Synopsis:
+### Synopsis:
+
+| date | topic |
+|-|-|
+| 2019-10-01 | Intro @ Red Hat |
+| 2019-10-15 | (dekanske volno) |
+| 2019-10-29 | ... |
+| 2019-11-12 | ... |
+| 2019-11-26 | ... |
+| 2019-12-10 | ... |
 
 1. History, thy why, what?  
   - `git log` - show what's what
@@ -29,6 +40,12 @@ Synopsis:
 
 6. (backup) - Advanced GIT topics - aliases, scripting, more configuration, .git directory structure  
   (There may not be a 6th lesson, depending on the calendar.)
+
+
+### 2019-10-15
+
+Homework :)  Check out https://learngitbranching.js.org/ , go through the whole Introduction Sequence in the Main section, and look at the first Push & Pull exercise in the Remote section.
+You can also try for yourself at http://git-school.github.io/visualizing-git/#free .
 
 ### Exercises
 
@@ -145,10 +162,5 @@ Synopsis:
 
 ---
 
-The course will be followed by [Software Engineering 2](https://is.mendelu.cz/katalog/syllabus.pl?kod=PEF:SWI2).
+The course will be followed by [Software Engineering 2](https://is.mendelu.cz/katalog/syllabus.pl?kod=PEF:SWI2).  
 Details to be determined.
-
----
-
-If you need to contact us, please use the [ManageIQ/welcome](https://gitter.im/ManageIQ/welcome) channel on [Gitter](https://gitter.im). (You'll need a github login anyway.)
-Feel free to use that channel to share anything useful you've found :).
