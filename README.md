@@ -3,12 +3,13 @@
 ## SWI 1
 
 These are materials for the [Software Engineering 1](http://is.mendelu.cz/katalog/syllabus.pl?kod=PEF:SWI1) course,
-Tuesday group, even-numbered weeks, taught on Mendel University in Brno, fall 2019, led by [@ZitaNemeckova](https://github.com/ZitaNemeckova) and [@himdel](https://github.com/himdel).
+Tuesday group, 11am local time, even-numbered weeks, taught on Mendel University in Brno, fall 2019, led by [@ZitaNemeckova](https://github.com/ZitaNemeckova) and [@himdel](https://github.com/himdel).
 
 The topic will be Git, the whole semester.
 
 If you need to contact us, please use the [ManageIQ/welcome](https://gitter.im/ManageIQ/welcome) channel on [Gitter](https://gitter.im). (You'll need a github login anyway.)  
 Feel free to use that channel to share anything useful you've found :).
+
 
 ### Synopsis:
 
@@ -16,44 +17,65 @@ Feel free to use that channel to share anything useful you've found :).
 |-|-|
 | 2019-10-01 | Intro @ Red Hat |
 | 2019-10-15 | (dekanske volno) |
-| 2019-10-29 | ... |
-| 2019-11-12 | ... |
-| 2019-11-26 | ... |
-| 2019-12-10 | ... |
+| 2019-10-29 | Basics recap, Github, get it working |
+| 2019-11-12 | Synchronization, Conflicts |
+| 2019-11-26 | Rebase, graded exercise |
+| 2019-12-10 | Advanced git |
 
-1. History, thy why, what?  
+
+#### 2019-10-15 (homework :))
+
+Check out https://learngitbranching.js.org/ , go through the whole Introduction Sequence in the Main section, and look at the first Push & Pull exercise in the Remote section.
+You can also try for yourself at http://git-school.github.io/visualizing-git/#free .
+
+
+#### 2019-10-29 - Basics recap, Github, get it working
+
+1. Recap of the git branching exercises
+
+1. Make sure you have a github account, quick intro to github if needed
+
+1. Get git working on your machines, make sure you can push to github
+
+1. History, the why, what?  
   - `git log` - show what's what
-  - (get the VM running)
 
-2. Basics - `init`/`clone`, `git config`  
+1. Basics - `init`/`clone`, `git config`  
   - commits
   - branches
+  - exercises, see below
 
-3. Synchronization - remotes, updating (pull vs fetch & merge...)
 
-4. Conflicts  
+#### 2019-11-12 - Synchronization, Conflicts
+
+1. remotes
+
+1. updating (pull vs fetch & merge...)
+
+1. Conflicts  
   - branches (continued)
   - merge
-  - rebase
-
-5. `git rebase -i` - more real examples, get to try everything
-
-6. (backup) - Advanced GIT topics - aliases, scripting, more configuration, .git directory structure  
-  (There may not be a 6th lesson, depending on the calendar.)
 
 
-### 2019-10-15
+#### 2019-11-26 - Rebase, graded exercise
 
-Homework :)  Check out https://learngitbranching.js.org/ , go through the whole Introduction Sequence in the Main section, and look at the first Push & Pull exercise in the Remote section.
-You can also try for yourself at http://git-school.github.io/visualizing-git/#free .
+1. rebase flow
+
+1. `git rebase -i` - more real examples, get to try everything
+
+
+#### 2019-12-10 - Advanced git
+
+1. aliases, scripting, more configuration, .git directory structure
+
 
 ### Exercises
 
-- Basics (2nd class)
+- Basics (2019-10-29)
   - Install some text editor if you don't like vim/nano
   - Set git username and email
   - Add a ssh key to your GitHub account
-  - Fork swi-2018 repository
+  - Fork [the SWI-2019 repository](https://github.com/RoadToSoftwareFactory/SWI-2019)
   - Clone the repository
   - Set up remotes
   - Create new branch
@@ -61,11 +83,15 @@ You can also try for yourself at http://git-school.github.io/visualizing-git/#fr
   - Add some text to the file and create 1st commit
   - Add the hash of the 1st commit to the file and create 2nd commit
   - Add another line of text to the file, then add diff to the file and create 3rd commit
-  - Create a pull request to the swi-2018 repository
+  - Create a pull request to the upstream repository
+
+(TODO: rest of this section may change yet)
+
 - Synchronization (3rd class)
   - Update your repository from upstream and push it
   - Add additional remote from one of your classmates
   - Create local branch from your classmates repostiory
+
 - Conflicts and rebasing (4th class 1st group)
   - Part 1 (resolving conflicts)
     - Synchronize your PR branch from 2nd class with current master
