@@ -85,7 +85,7 @@ You can also try for yourself at http://git-school.github.io/visualizing-git/#fr
   - Add another line of text to the file, then add diff to the file and create 3rd commit
   - Create a pull request to the upstream repository
 
-(TODO: rest of this section may change yet)
+(TODO: rest of this section may change yet ; more TODO)
 
 - Synchronization (3rd class)
   - Update your repository from upstream and push it
