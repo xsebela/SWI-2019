@@ -56,6 +56,8 @@ You can also try for yourself at http://git-school.github.io/visualizing-git/#fr
   - branches (continued)
   - merge
 
+1. `filter-tree`
+
 
 #### 2019-11-26 - Rebase, graded exercise
 
